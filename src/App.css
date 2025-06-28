@@ -1,0 +1,17 @@
+#root {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding: 1rem;
+}
+label {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 16px;
+	input {
+		width: 100%;
+		border: 1px solid gray;
+		border-radius: 8px;
+		padding: 5px 10px;
+	}
+}
