@@ -14,7 +14,7 @@ const url = 'https://jsonplaceholder.typicode.com/comments'
 
 const DataGrid = () => {
 	const [fetchData, isLoading, error] = useFetching(url)
-	console.log(' DataGrid ~ error:', error)
+
 	const [data, setData] = useState([])
 	const [text, setText] = useState('')
 	const [sort, setSort] = useState('')
